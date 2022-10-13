@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav div h3 {
+    font-size: 30px;
+    margin-top: 5px;
+
+}
+
+nav {
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+.main-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+}
+
+.contant {
+    margin: 4em;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 0;
+}
+
+p {
+    font-size: 15px;
+
+}
+
+button {
+    background-color: rgb(226, 69, 95);
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+}
+
+
+
+.img-sec {
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: 75%;
+
+
+}
+
+/* logo section start ------------------ */
+
+.logo-section {
+    display: flex;
+    width: 80%;
+    margin: 50px auto 0 auto;
+    border: 2px solid lightcyan;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin: 10px 20px;
+
+}
+
+/* logo section end ------------ */
+/* popular section start-------------- */
+
+.main {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.popular-sec {
+    width: 80%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.blog {
+    box-shadow: .5px .5px 5px gray;
+    border-radius: 1px;
+}
+
+.blogs {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+
+}
+
+.blog-img img {
+    margin-top: 15px;
+    width: 90%;
+}
+
+.blog-details {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.button {
+    margin-top: 20px;
+    text-align: right;
+    color: rgb(226, 69, 95);
+}
+
+.button a {
+    text-decoration: none;
+    color: rgb(226, 69, 95);
+}
+
+/* .................................................... */
+
+.fa-star,
+.fa-star-half-stroke {
+    color: rgba(226, 69, 95, 0.573);
+}
+
+.last {
+    margin: 100px;
+    display: flex;
+}
+
+.last-info {
+    margin: 20px 0px 0px 80px;
+}
+
+.last-button {
+    background-color: rgb(226, 69, 95);
+    text-decoration: none;
+    padding: 8px 18px;
+    color: white;
+}
+
+.last-info p {
+    margin-bottom: 29px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px 0;
+}
+
+.fa-brands {
+    margin-right: 10px;
+}
